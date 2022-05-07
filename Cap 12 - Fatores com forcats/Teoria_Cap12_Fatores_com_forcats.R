@@ -247,3 +247,4 @@ gss_cat %>%
   mutate(relig = fct_lump(relig, n = 10)) %>%
   count(relig, sort = TRUE) %>%
   print(n = Inf)
+
